@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Khalid Hasan - Python Developer</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+        
+        .profile-placeholder {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+        
+        .tagline {
+            color: #667eea;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        /* Section Styles */
+        section {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+            animation: slideUp 0.8s ease-out;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        /* Skills Section */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 1rem;
+        }
+        
+        .skill-tag {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+        }
+        
+        /* Projects Section */
+        .project {
+            background: #f8f9fa;
+            padding: 1.2rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .project:hover {
+            transform: translateX(5px);
+        }
+        
+        .project h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Contact Section */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .social-links {
+            margin-bottom: 1rem;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: #ffd700;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { 
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            header {
+                padding: 1.5rem;
+            }
+            
+            section {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .profile-placeholder {
+                width: 100px;
+                height: 100px;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="profile-placeholder">
+                👨‍💻
+            </div>
+            <h1>Md Khalid Hasan</h1>
+            <p class="tagline">Python Developer & Mobile App Creator</p>
+            <p>Building amazing applications with Python on mobile! Passionate coder from Bangladesh.</p>
+        </header>
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Md Khalid Hasan, a passionate developer from Bangladesh who started my coding journey using just my mobile phone. I believe that great ideas can come from anywhere, and you don't need expensive equipment to start programming.</p>
+            <p>I specialize in Python development using QPython and have built various mobile applications that solve real problems. I'm the creator behind "Child Coder" and I'm constantly learning and expanding my skills in web development and mobile app creation.</p>
+            <p><strong>Fun Fact:</strong> All my projects are built entirely on mobile devices!</p>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">QPython</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">Mobile Development</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">Flask</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">Data Structures</span>
+                <span class="skill-tag">Algorithms</span>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="project">
+                <h3>📱 Personal Diary App</h3>
+                <p>A secure mobile diary application built with Python that allows users to write, save, and manage their daily entries with timestamps.</p>
+                <p><strong>Technologies:</strong> Python, QPython, File Handling, DateTime</p>
+            </div>
+            
+            <div class="project">
+                <h3>✅ Smart To-Do Manager</h3>
+                <p>A comprehensive task management application with features to add, view, mark as complete, and delete tasks with persistent storage.</p>
+                <p><strong>Technologies:</strong> Python, Data Structures, CRUD Operations</p>
+            </div>
+            
+            <div class="project">
+                <h3>🧮 Mobile Calculator</h3>
+                <p>A fully functional calculator application built entirely on mobile device using Python with basic arithmetic operations.</p>
+                <p><strong>Technologies:</strong> Python, Functions, User Input</p>
+            </div>
+            
+            <div class="project">
+                <h3>🌐 Portfolio Website</h3>
+                <p>This responsive portfolio website created using HTML, CSS, and JavaScript, built and tested on mobile device.</p>
+                <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript, Responsive Design</p>
+            </div>
+            
+            <div class="project">
+                <h3>💰 Expense Tracker</h3>
+                <p>A mobile application to track daily expenses and generate spending reports with categorization features.</p>
+                <p><strong>Technologies:</strong> Python, File I/O, Data Analysis</p>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>📧 Email:</strong> childcoderbd@gmail.com
+                </div>
+                <div class="contact-item">
+                    <strong>🐱 GitHub:</strong> Child-Coder
+                </div>
+                <div class="contact-item">
+                    <strong>👥 Facebook:</strong> itsmekhalid007k
+                </div>
+                <div class="contact-item">
+                    <strong>📍 Location:</strong> Bangladesh
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Child-Coder" target="_blank">GitHub</a> • 
+            <a href="https://www.facebook.com/itsmekhalid007k" target="_blank">Facebook</a> • 
+            <a href="mailto:childcoderbd@gmail.com">Email</a>
+        </div>
+        <p>&copy; 2024 Md Khalid Hasan. Built with ❤️ using QPython on Mobile</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Follow me: @Child_Coder</p>
+    </footer>
+
+    <script>
+        // Simple JavaScript for enhanced interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Khalid Portfolio loaded successfully!');
+            
+            // Add animation to skill tags
+            const skillTags = document.querySelectorAll('.skill-tag');
+            skillTags.forEach((tag, index) => {
+                tag.style.animationDelay = `${index * 0.1}s`;
+                tag.classList.add('animate-skill');
+            });
+            
+            // Add click effect to projects
+            const projects = document.querySelectorAll('.project');
+            projects.forEach(project => {
+                project.addEventListener('click', function() {
+                    this.style.backgroundColor = '#e3f2fd';
+                    setTimeout(() => {
+                        this.style.backgroundColor = '#f8f9fa';
+                    }, 300);
+                });
+            });
+            
+            // Smooth scrolling for navigation
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if(targetId !== '#') {
+                        const targetSection = document.querySelector(targetId);
+                        if(targetSection) {
+                            targetSection.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+        
+        // Add CSS for skill animations
+        const style = document.createElement('style');
+        style.textContent = `
+            .animate-skill {
+                animation: popIn 0.6s ease-out backwards;
+            }
+            
+            @keyframes popIn {
+                0% {
+                    opacity: 0;
+                    transform: scale(0.8) translateY(20px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: scale(1) translateY(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
